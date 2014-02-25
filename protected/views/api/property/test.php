@@ -49,6 +49,7 @@
         CUST_ADDRESS1: <input type="text" name="ETS_PROPERTY[CUST_ADDRESS1]" value="CUST_ADDRESS1" /> <br />
         CUST_ADDRESS2: <input type="text" name="ETS_PROPERTY[CUST_ADDRESS2]" value="CUST_ADDRESS2" /> <br />
         CUST_CITY: <input type="text" name="ETS_PROPERTY[CUST_CITY]" value="NYC" /> <br />
+        BUSINESS_UNIT: <input type="text" name="ETS_PROPERTY[BUSINESS_UNIT]" value="N009" /> <br />
 
         <input type="submit" value="Submit" />
     </fieldset>

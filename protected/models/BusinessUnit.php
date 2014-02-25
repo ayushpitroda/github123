@@ -1,9 +1,9 @@
 <?php
 
 /**
- * This is the model class for table "ETS_BUSINESS_UNIT".
+ * This is the model class for table "ETS_BUSINESS_UNIT_CFG".
  *
- * The followings are the available columns in table 'ETS_BUSINESS_UNIT':
+ * The followings are the available columns in table 'ETS_BUSINESS_UNIT_CFG':
  * @property integer $BUSINESS_UNIT
  * @property string $BU_DESCR
  * @property string $LOGO
@@ -33,7 +33,7 @@ class BusinessUnit extends CActiveRecord
 	 */
 	public function tableName()
 	{
-		return 'ETS_BUSINESS_UNIT';
+		return 'ETS_BUSINESS_UNIT_CFG';
 	}
 
 	/**

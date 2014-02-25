@@ -41,12 +41,12 @@ class PropertyController extends ApiController {
             $model = new ETSProperty();
             $model->attributes=$_POST['ETS_PROPERTY'];
             $model->USER_ID = Yii::app()->user->id;
-            if($model->save()) {
+            if ($model->save()) {
                 $this->printResult(['ETS_PROPERTY' => ['PROPERTY_ID' => $model->PROPERTY_ID]]);
-
             } else {
-                throw new CHttpException('400','ETS_PROPERTY could not be saved');
+                throw new CHttpException('400','Property cannot be saved.');
             }
+
         } else {
             throw new CHttpException('400','Input was not provided');
         }
