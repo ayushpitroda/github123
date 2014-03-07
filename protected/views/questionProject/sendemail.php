@@ -1,1 +1,0 @@
-<?php echo $this->renderPartial('_questionupdate', array('model'=>$model),true,true); ?>
